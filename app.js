@@ -13,5 +13,5 @@ require("./src/routes/user.route")(app);
 require("./src/routes/todos.route")(app);
 
 app.listen(3000, function () {
-  console.log("Blog post app listening on port 3000!");
+  console.log("Blog post API listening on port 3000!");
 });
